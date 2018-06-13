@@ -1,0 +1,8 @@
+extends ./layout.jade
+
+block content
+    - for (var i=1; i<=5; i++) {
+    - console.log('This is a note', function() { console.warn('This is kinda bad'); });
+    - console.warn('This is kinda bad');
+    - console.error('This is really bad');
+    - }
